@@ -1,0 +1,18 @@
+{
+  "name": "opencode-api",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test test/*.test.js",
+    "test:unit": "node --test test/*.test.js",
+    "test:integration": "OPENCODE_INTEGRATION=1 node --test test/integration.test.js"
+  },
+  "engines": {
+    "node": ">=20.3"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.1.0"
+  }
+}

@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Runtime data and state
+data/
+runtime/
+tmp/
+.opencode/
+*.pid
+
+# Logs and test output
+*.log
+npm-debug.log*
+coverage/
+
+# Editor and OS files
+.DS_Store
+.idea/
+.vscode/
+
+# Unrelated legacy UI, not part of the worker
+index.html
